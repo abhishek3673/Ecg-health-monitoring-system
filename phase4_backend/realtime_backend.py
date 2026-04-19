@@ -24,11 +24,12 @@ SVM_MODEL     = MODEL_DIR + "ecg_svm_model.pkl"
 CNN_MODEL     = MODEL_DIR + "ecg_cnn_model.h5"
 SCALER        = MODEL_DIR + "ecg_scaler.pkl"
 
-FIREBASE_URL  = "https://ecg-monitor-c1058-default-rtdb.asia-southeast1.firebasedatabase.app"
-FIREBASE_KEY  = MODEL_DIR + "firebase_key.json"
+# ── CREDENTIALS (ADD YOUR OWN BEFORE RUNNING) ──
+FIREBASE_URL  = "ADD_YOUR_FIREBASE_DATABASE_URL"
+FIREBASE_KEY  = MODEL_DIR + "ADD_FIREBASE_SERVICE_ACCOUNT_JSON"
 
-TG_TOKEN      = "8746117250:AAFKd4IuA201OCwlgIyq0PkmoBst7pXcOKc"
-TG_CHAT_ID    = "5836890718"
+TG_TOKEN      = "ADD_TELEGRAM_BOT_TOKEN"
+TG_CHAT_ID    = "ADD_TELEGRAM_CHAT_ID"
 
 WIN_PRE       = 90
 WIN_POST      = 110
